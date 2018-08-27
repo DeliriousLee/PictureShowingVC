@@ -21,7 +21,7 @@
 -(void)viewDidLoad{
     [super viewDidLoad];
 
-    [self setViewControllerTitle:@"查看图片"];
+    [self setTitle:@"查看图片"];
     CGFloat imageWidth=_showImage.size.width;
     CGFloat imageHeight=_showImage.size.height;
     
